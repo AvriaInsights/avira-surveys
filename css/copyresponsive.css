@@ -1,0 +1,1304 @@
+@media(min-width: 1536px) and (max-width: 2048px) {
+    .nav-menu2 a {
+        font-size: 1.8rem;
+        color: #fff;
+    }
+    .banner-one-text {
+        bottom: 37rem; 
+    }
+    .banner-1{
+        height:80vh;
+    } 
+    .part-2 {
+        height: 75vh;
+    }
+    .toolt p {
+        font-size: 2.5rem;
+    }
+    .que_section h1 {
+        font-size: 18px;
+    }
+}
+@media(min-width:1600px) and (max-width:1650px){
+    .progress{
+        left: 55%!important;
+        top: 35%;
+    }
+    .logo-dash-temp{
+        position:relative;
+        top:9rem;
+    }
+    .btn_slider{
+        margin: 60px 6px;
+    }
+    .fixed-ttl.first_survey_heading{
+        font-size:2.5rem!important;
+    }
+    .sub_points_down{
+        height:22rem!important;
+    }
+    .toolt p {
+        font-size: 1.6rem!important;
+    }
+    .fixed-footer {
+        position: fixed!important;
+        bottom: -3.6rem!important;
+        width: 100%;
+    }
+    .offer-txt, .offer-text-end {
+        padding-top: 4rem;
+        padding-left: 0rem!important;
+        font-size: 1.6rem;
+    }
+}
+@media(min-width: 1430px) and (max-width: 2048px){
+    .next-btn-q {
+        display: inline-flex;
+        padding: 12px 10px;
+        width: 140px;
+    }
+}
+@media(min-width:1400px) and (max-width:1430px){
+    .progress{
+        left: 56%!important;
+        top: 23%;
+    }
+    .logo-dash-temp{
+        position: absolute;
+        top: 8rem;
+    }
+    .btn_slider{
+        margin: 5rem 0.5rem 0;
+        position: relative;
+        right: 7rem;
+    }
+}
+@media(width:1440px){
+    .progress{
+        right:35%;
+        left:unset;
+    }
+    .logo-dash-temp{
+        padding-top:2rem;
+        margin-left:5rem;
+    }
+    .offer-txt, .offer-text-end{
+        padding-top:2rem;
+    }
+    .logo-dash-temp {
+        padding-top:4.4rem;
+    }
+    .fixed-footer{
+        position:fixed;
+        bottom:3.5rem;
+    }
+}
+@media(max-width:1199px){
+    .banner-one-text {
+        bottom: 16rem;
+        padding-right: 7.8rem;
+    }
+    .progress {
+        left: 37%;
+    }
+    .part-3 {
+        height: 70vh;
+    }
+}
+@media (min-width: 1360px) and (max-width: 1370px){
+    .text-right-logo {
+        position: relative;
+        top: 4rem;
+    }
+    .progress {
+        top: -9%;   
+    }
+}
+@media(min-width: 1024px) and (max-width: 1366px){
+    .toolt p {
+        font-size:1.6rem;
+        margin-bottom:0;
+    }
+    .progress {
+        left: 30%;
+        bottom: 0rem;
+    }
+    .text-right-logo{
+        position: relative;
+        top: -5rem;
+    }
+    .survey-ttl-data {
+        line-height: 1.5;
+        font-size: 1.8rem;
+    }
+    .first_survey_heading {
+        font-size: 2.5rem!important;
+    }
+    .que_section h1 {
+        font-size: 14px;
+    }
+    .part-2 {
+        height:85vh;
+        position: relative;
+    }
+    .checkbox-tools:checked + label, .checkbox-tools:not(:checked) + label {
+        padding:1.2rem;
+    }
+    .t-you-img img{  
+          width: 37%;
+    }
+}
+@media(max-width:991px){
+    .banner-1{
+        height: 72vh;
+        background-attachment: unset;
+    }
+    ul.tab-view{
+        display: flex!important;
+    }
+    .banner-one-text {
+        bottom: 40rem;
+        padding-right: 7.8rem;
+    }
+    .part-2{
+        height: 80vh;
+    }
+    .t-you-img img{
+        width:60%;
+        right:1rem;
+    }
+    .second-part-content{
+        padding-top:28%;
+    }
+    .industry-content{
+        padding-top:2rem;
+        padding-left:0;
+    }
+    .tab-view .btn-login{
+        padding: 0.3rem 1.8rem;
+    }
+    .tab-view .btn-signup{
+        padding: 0.4rem 1.8rem;
+    }
+    .mob-menu{
+        display: block!important;
+        background: #b8f3ff;
+        color: #000;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 30rem;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 2000;
+        /*background: #fff;*/
+        /*height: calc(100vh);*/
+        height:35rem;
+        /* -webkit-transform: translateX(490%); */
+        /* -ms-transform: translateX(490%); */
+        /* transform: translateX(490%); */
+        -webkit-box-shadow: -10px 0 20px -10px rgb(0 0 0 / 10%);
+        box-shadow: -10px 0 20px -10px rgb(0 0 0 / 10%);
+        -webkit-transition: .3s all ease-in-out;
+        -o-transition: .3s all ease-in-out;
+        transition: .3s all ease-in-out;
+        /*padding-top:3.5rem;*/
+    }
+    .mob-menu .nav-menu2 a{
+        color:#000;
+    }
+    .mob-menu .nav-menu2{
+        padding: 1.5rem 1.5rem!important;
+    }
+    .first-menu{
+        margin-top:4rem;
+    }
+    .desk-top-btn{
+        display:none;
+    }
+    .search-icon{
+        display:none!important;
+    }
+    .desktop-ind{
+        display:none;
+    }
+    .mob-industry{
+        display:block;
+    }
+ 
+}
+@media (max-width: 912px) {
+    .progress {
+        left:-1%!important;
+        bottom:5rem!important;
+    }
+    .pe-6 {
+         padding-right: 0rem; 
+    }
+}
+
+@media(min-width: 910px) and (max-width: 930px) {
+    .first_survey_heading {
+        font-size: 3.5rem!important;
+    }
+    .survey-ttl-data{
+        font-size:2.5rem;
+    }
+    .que_scroll h4{
+        font-size:1.8rem;
+    } 
+    .toolt p {
+        font-size: 2.2rem;
+    }
+    .text-right-logo{
+        position: relative;
+        bottom: 4rem;
+    }
+    .scales {
+        width: 70rem;
+    }
+    .next-btn-q {
+        padding: 13px 7px;
+        width: 165px;
+    }
+    .button a.save-next-btn {
+        font-size: 1.3rem;
+    }
+    p.survey-txt{
+        font-size: 1.7rem;
+    }
+}
+@media(min-width: 720px) and (max-width: 820px) {
+   .thank-you-banner.part-2{
+        height:50vh;
+    }
+    .add-mail-common {
+        flex-direction:column;
+    }
+}
+@media(min-width:540px) and (max-width:720px){
+    .captcha-box{
+        width: 18.8rem !important;
+    }
+    .input-char{
+        width: 22rem !important;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .banner{
+        height:97vh!important;
+    }
+}
+@media(min-width: 820px) and (max-width: 1024px){
+    .thank-you-banner.part-2{
+        height:100vh;
+    }
+    .t-you-img img {
+        right: -1rem;
+        width: 10rem;
+    }
+    .thank-you-banner.part-2{
+        height:60vh;
+    }
+    .add-mail-common {
+        flex-direction:column;
+    }
+}
+@media (min-width: 1360px) and (max-width: 1370px){
+    .text-right-logo {
+        position: relative;
+        top: 3rem!important;
+    }
+    .fixed-footer {
+        position: fixed;
+        bottom: -3.5rem;
+    }
+    .sub_points_rank {
+        height:21.5rem;
+    }
+}
+@media(min-width: 1360px) and (max-width: 1370px){
+     .logo-dash-temp {
+        position: absolute;
+        top: 3rem!important;
+    } 
+    .align-txt h4{
+        font-size:1.3rem;
+    }
+    .toolt p {
+        font-size: 1.6rem!important;
+        padding-bottom: 1rem;
+    }
+    .text-right-logo {
+        position: relative;
+        top: -1rem;
+    }
+    .next-btn-q {
+       padding: 12px 7px;
+       width: 140px; 
+    }
+    .progress {
+        left: 27%;
+        bottom: 0rem;
+    }
+    .rank_label,.rank_ord {
+        margin-top: 15px;
+    }
+    .pb-5.sub_points_rank{
+        padding-bottom:0rem!important;
+    }
+    .button{
+        width:160px;
+    }
+    .button.get-started{
+        width:210px;
+    }
+   
+}
+@media(min-width: 1370px) and (max-width: 1380px){
+    .button a.save-next-btn {
+        font-size: 1.5rem;
+    }
+    .next-btn-q {
+        padding: 13px 10px;
+        width: 200px;
+    }
+    .toolt p {
+        font-size: 2.4rem;
+    }
+    
+    .que_section p {
+        font-size: 2rem;
+    }
+    .toolt p {
+        font-size: 2.5rem;
+    }
+    .que_scroll h4, .item h4 {
+        font-size:1.4rem;
+    }
+}
+@media(min-width: 1100px) and (max-width: 1260px){
+    .text-right-logo {
+        position: relative;
+        top: -1rem;
+    }
+    .toolt p {
+        font-size: 2rem;
+    }
+    .que_scroll h4 {
+        font-size: 1.3rem;
+    }
+    .boolean_yes_no {
+        padding: 0.5rem 3.2rem!important;
+    }
+}
+@media(width: 1280px){
+    .boolean_yes_no p {
+        font-size: 1.4rem;
+    }
+    .text-right-logo {
+        position: relative;
+        top: 3rem;
+    }
+    .progress {
+        left: 30%;
+        bottom: -4.5rem;
+    }
+    .toolt p {
+        padding-bottom: 1rem;
+        font-size: 1.4rem!important;
+    }
+    .rank_label,.rank_ord {
+        margin-top: 18px;
+    }
+    .next-btn-q {
+       padding: 10px 20px;
+       width: 150px;
+    }
+    .pb-5.sub_points_rank{
+        padding-bottom:0rem!important;
+    }
+    .align-txt h4{
+        font-size:1.2rem;
+    }
+    .chk_class label {
+        padding:.7rem;
+    }
+    input[type="checkbox"]:checked + label{
+        padding:.8rem;
+    }
+    .que_section p {
+        font-size: 1.1rem;
+    }
+    .logo-dash-temp{
+        position: absolute;
+        top:2.5rem;
+    }
+    .scroll-css{
+        height:20rem !important;
+    }
+    .fixed-footer{
+            bottom: 6.5rem !important;
+    }
+}
+@media(min-width: 1000px) and (max-width: 1035px){
+    .text-right-logo {
+        position: relative;
+        top: 5rem;
+    }
+}
+@media(min-width: 910px) and (max-width: 930px){
+    .fixed-ttl {
+        position: fixed;
+        top: 5%;
+        left: 6.2%;
+    }
+    .top-fill-header{
+        margin-top:12rem!important;
+    }
+    .offer-txt, .offer-text-end{
+        padding-top: 0rem;
+        padding-left: 0;
+        font-size: 1.6rem;
+        margin-top: -9rem;
+        margin-left: -11rem;
+    }
+    .fixed-footer {
+        position: fixed;
+        bottom: 5.5rem;
+        width: 100%;
+    }
+    
+}
+@media(max-width:768px){
+    .banner-one-text {
+        bottom:42rem;
+        padding-right: 1.4rem;
+        padding-left: 1.4rem;
+    }
+    .second-part-content p {
+        font-size: 1.4rem;
+    }
+    .part-2,.part-3{
+        height:auto;
+        padding:5rem 0;   
+    }
+    .count-banner{
+        padding:3rem 0;
+    } 
+    .counter-text {
+        font-size: 2rem;
+    }
+    .top-header ul li {
+        padding: 0 0.5rem;
+    }
+    .top-header ul li a {
+     font-size: 1.2rem;
+    }
+    .banner-1 {
+        height: 60vh;
+    }
+    .banner-one-text p {
+     font-size: 2rem;
+    }
+    .text-2 li {
+        padding-top:1rem;
+    }
+    label.star{
+        font-size:95px!important;
+    }
+    .progress {
+        left: 36%;
+        bottom: 2rem;
+    }
+    .text-right-logo {
+        position: relative;
+        right: -4.2rem;
+        bottom: 5.5rem;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+}
+@media (max-width: 768px){
+    .progress {
+        left: 36%!important;
+        bottom: -2rem!important;
+    }
+    .progress{
+        left: -34%!important;
+    }
+    .text-right-logo {
+        position: relative!important;
+        right: -4.2rem!important;
+        bottom: 5.5rem!important;
+    }
+}
+@media (max-width:480px){
+    .logo-dash-temp,.cmp_logo_text{
+        display:none;
+    }
+    .boolean_yes_no p {
+        font-size: 1.5rem;
+    }
+      .rank_ord{
+        margin-top:.8rem;
+        margin-bottom:2rem;
+        font-size:1.2rem;
+    }
+    .rank_label{
+        font-size:1.4rem;
+        margin-top:1.8rem;
+    }
+    .thank-you-banner.part-2 {
+        height: 100vh;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .banner{
+        height:97vh!important;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+}
+@media (min-width:320px) and (max-width:540px) {
+	 .banner-one-text {
+        bottom: 10rem;
+    }
+    .banner-1 {
+        height: 96vh;
+    }
+    .login-form{
+        padding:4rem 0;
+    }
+    .tick-tack {
+    font-size: 3rem;
+    color: #f8ae3a;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-left: 1rem;
+}
+    .banner-one-text h1 {
+        font-size: 3rem;
+        color: #fff;
+    }
+    [data-tooltip]:before {
+        min-width: 300px;
+    }
+    .woman-img{
+        display:none;
+    }
+    .para1{
+        margin-top:0;
+    }
+    .mt-5.reg-form{
+        margin-top:0!important;
+    }
+    .button a{
+        font-size:1.3rem;
+    }
+    .rank_ord{
+        margin-top:.8rem;
+        margin-bottom:2rem;
+        font-size:1.2rem;
+    }
+    .rank_label{
+        font-size:1.4rem;
+        margin-top:1.8rem;
+    }
+    .boolean_yes_no p {
+        font-size: 1.5rem;
+    }
+    .scale {
+        height:35px;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .banner{
+        height:97vh!important;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+    .custom-dropdown{
+        margin-bottom: 19px;
+        width: 100%;
+    }
+    
+}
+ @media (min-width: 320px) and (max-width: 360px){
+        .banner-1 {
+            height: 100vh;
+        }
+    }
+    
+@media(min-width: 800px) and (max-width: 840px){
+    .text-right-logo{
+        position: relative;
+        bottom: 4rem;
+        right: -7.2rem;
+    }
+    .first_survey_heading {
+        font-size: 3.2rem!important;
+    }
+    .survey-ttl-data{
+        font-size:1.8rem;
+    }
+    .toolt p {
+        font-size: 2rem;
+    }
+    .bannar{
+        height:100vh!important;
+    }
+    .que_scroll h4 {
+        color: #fff;
+        margin-bottom: 0;
+        font-size: 1.6rem;
+    }
+    .add-mail-common {
+        flex-direction:column;
+    }
+    label.star {
+        font-size: 90px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+     .banner-one-text {
+        bottom: 3rem;
+    }
+    .banner-1 {
+        height: 100vh;
+    }
+    .first_survey_heading {
+        font-size: 1.6rem!important;
+        padding-bottom: 1.5rem;
+        line-height:1.3;
+        padding: 0 2rem 1.4rem;
+    }
+    
+    .logo-dash-temp{
+        display:none;
+    }
+    
+     .rank_ord{
+        margin-top:.8rem;
+        margin-bottom: 1rem;
+        font-size:1.2rem;
+    }
+    .rank_label{
+        font-size:1.4rem;
+        margin-top:.5rem;
+    }
+    .button a{
+        font-size:1.3rem;
+    }
+    .boolean_yes_no p {
+        font-size: 1.5rem;
+    }
+    .t-you-img img {
+        width: 20%;
+        right: -13rem;
+        top: -1rem;
+    }
+    .thank-you-banner .fpassword-content{
+        margin-left:0;
+        margin-top:1rem;
+    }
+    .thank-you-banner .tick-icon {
+        width: 4rem;
+        margin-bottom: 1.5rem;
+        font-size:1.4rem;
+    }
+    .thank-you-banner .flogin-btn{
+        margin-bottom:0;
+        padding: 1rem 4rem;
+        font-size:1.4rem;
+    } 
+    .thank-you-banner .succes-msg{
+        font-size:1.3rem;
+    }
+    .footer-fixed{
+        width: 94%;
+        position: fixed;
+        height: 7rem;
+        background: #06060673;
+        bottom: 8px;
+        /* top: 0; */
+        left: 0;
+        /* margin: 1rem; */
+        border-radius: 0 0 25px 25px;
+        margin: 0 1rem;
+    }
+    .next-btn-q{
+        margin-top:0;
+    }
+    .scales{
+        width:25rem;
+    }
+    .scale_txt{
+        font-size:1rem;
+    }
+    label.star {
+        font-size: 25px!important;
+    }
+    .star {
+        color: red;
+        font-size: 12px!important;
+    }
+    .button{
+        margin-top:15px;
+    }
+    .scale {
+        height:35px;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+}
+@media (min-width: 390px) and (max-width: 844px){
+    .captcha-box{
+        width:12.7rem !important;
+    }
+}
+@media(width:1280px){
+    .bg-light-gray{
+        height:96vh;
+    }
+}
+@media(max-width:768px){
+    .offer-txt, .offer-text-end{
+        display:none;
+    }
+}
+@media (min-width: 360px) and (max-width: 640px){
+    [data-tooltip]:before {
+        min-width: 260px;
+        width: 318px !important;
+    white-space: initial !important;
+    }
+    .mob-top-menu{
+        flex-direction: column;
+    }
+    .mob-top-menu li{
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+    .woman-img{
+        display:none;
+    }
+    .para1{
+        margin-top:0;
+    }
+    .mt-5.reg-form{
+        margin-top:0!important;
+    }
+    label.star {
+        font-size: 4rem!important;
+    }
+    .t-you-img img {
+        text-align: end;
+        position: relative;
+        right: -15rem;
+        width: 6rem;
+    }
+    .t-content.fpassword-content {
+        margin-top: 4rem;
+         margin-left:0rem; 
+    }
+    .t-you-img .fpassword-image {
+        height: 75%;
+        margin-top: -2rem;
+    }
+    .logo-dash-temp,.cmp_logo_text{
+        display:none;
+    }
+    .rank_ord{
+        margin-top:.8rem;
+        margin-bottom:2rem;
+        font-size:1.2rem;
+    }
+    .rank_label{
+        font-size:1.4rem;
+        margin-top:1.8rem;
+    }
+    .button a{
+        font-size:1.3rem;
+    }
+    .boolean_yes_no p {
+        font-size: 1.5rem;
+    }
+    .flogin-btn {
+        padding: 1rem 5rem;
+        font-size: 1.8rem;
+        margin-bottom: 0rem;
+    }
+    .que_section h1{
+        padding-bottom:1rem;
+      
+    }
+    .checkbox-tools1:not(:checked) + label {
+        margin-top: 15px;
+    }
+    .rank_ord{
+        display:none;
+    }
+    .scale {
+        height:35px;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+    .no-mob-progress-bar{ 
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+}
+
+@media (min-width: 310px) and (max-width: 350px){
+    .progress {
+        left: 45%;
+        bottom: -2rem;
+    }
+    .scale {
+        height:35px;
+    }
+    .site-mobile-menu-close .icon-close2 {
+        top: -7.9rem;
+    }
+    .thanks-head h3 {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+    }
+    .thanks-head {
+        padding-bottom: 1rem;
+    }
+    .button {
+        margin-top: 5px;
+    }
+    .boolean_yes_no {
+        padding: 1rem 2.5rem!important;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+}
+@media (min-width:500px) and (max-width:550px) {
+    .progress {
+        left: 29%;
+        bottom: -1.5rem;
+    }
+    .scales{
+       width: 48rem;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        margin-top: 4.3px;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+    .text-right-logo {
+        position: relative;
+        right: 20.8rem;
+        bottom: 5.5rem;
+    }
+    .top-fill-header{
+        margin-top: 9rem!important;
+    }
+    .text-right-logo {
+        position: relative!important;
+        right: 41.8rem!important;
+        bottom: 5.5rem!important;
+    }
+    .fixed-ttl{
+        left:3.2%!important;
+    }
+}
+@media (min-width:375px) and (max-width:667px){
+    .captcha-box{
+        width:11.3rem;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+    .fpassword-image{
+        position:relative;
+        left:10rem;
+    }
+    .fpassword-content{
+        margin-top:0;
+    }
+}
+
+@media (min-width:370px) and (max-width:380px) {
+    .text-right-logo{
+        bottom:.4rem!important;
+        position:relative!important;
+        right:0rem!important;
+    }
+}
+@media (min-width:360px) and (max-width:380px) {
+    .rank_ord{
+        display:none;
+    }
+    .que-type-txt{
+        height:37rem;
+    }
+    .boolean_yes_no {
+        padding: 1rem 3.9rem!important;
+    }
+    .que_scroll h4{
+        font-size:1.3rem;
+    }
+    .toolt p {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .thanks-head{
+        text-align:center;
+    }
+    .text-right-logo {
+        bottom: 4.4rem !important;
+        position: relative !important;
+        right: 25rem !important;
+    }
+    .scales {
+        width: 31.3rem;
+        height: 4.5rem;
+    }
+    .checkbox-tools:checked + label, .checkbox-tools:not(:checked) + label {
+        font-size: 1.1rem;
+        padding: 1.5rem;
+    }
+    .progress {
+        left: 44%;
+        bottom: -2rem;
+    }
+    .chk_class label,input[type="checkbox"]:checked + label{
+        padding:.9rem;
+    }
+    .button {
+        width: 170px;
+    }
+    .button a.save-next-btn {
+        font-size: 1.2rem;
+    }
+    .add-mail-common {
+        flex-direction:column;
+    }
+    .scale {
+        height:35px;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+    .top-fill-header {
+        margin-top:11rem!important;
+    }
+     .fixed-ttl.first_survey_heading {
+       top: 7%;
+       left: 1.2%;
+       font-size:1.6rem!important;
+    }
+    .offer-txt, .offer-text-end {
+        padding-top: 0rem;
+        padding-left: 0rem;
+        font-size: 1.6rem;
+    }
+    .fixed-footer {
+        position: fixed;
+        bottom:7rem;
+        width: 100%;
+    }
+    .sub_points_down{
+        height: 213px !important;
+        overflow-y: scroll;
+    }
+    .pb-5.sub_points_down{
+        height:290px!important;
+    }
+}
+@media (min-width:250px) and (max-width:300px) {
+    .boolean_yes_no{
+        padding:0rem 1.5rem!important;
+    } 
+    .progress {
+        left: 50%;
+        bottom: -1rem;
+    }
+    .text-right-logo {
+        position: relative;
+        right: 7.8rem;
+        bottom: 4.5rem;
+    }
+    .first_survey_heading.fixed-ttl{
+        font-size: 1.4rem!important;
+    }
+    .toolt p {
+        font-size: 1.4rem;
+    }
+    .survey-ttl-data{
+        font-size:1.3rem;
+    }
+    .checkbox-tools:checked + label, .checkbox-tools:not(:checked) + label {
+        padding:1rem;
+    }
+    .chk_class label,input[type="checkbox"]:checked + label{
+        padding:.9rem;
+    }
+    .scales{
+        width:23rem;
+    } 
+    .toolt p {
+        padding-bottom: 1rem;
+    }
+    label.star {
+        font-size: 31px!important;
+        padding:5px;
+    }
+    .add-mail-common {
+        flex-direction:column;
+    }
+    .para1 {
+        margin-top: 1rem;
+    }
+    .mt-5.contact-us-page{
+        margin-top:0rem!important;
+    }
+    .scale {
+        height:35px;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+    .no-mob-progress-bar{
+        display:none;
+    }
+    .scrollBar1{
+        display:block;
+    }
+    .top-fill-header{
+        margin-top: 11rem!important;
+    }
+    .fixed-ttl {
+        position: fixed;
+        top: 8%;
+        left: 2.2%;
+    }
+    .text-right-logo {
+        position: relative!important;
+        right: 16rem!important;
+        bottom: 5.5rem!important;
+    }
+}
+
+@media (min-width:380px) and (max-width:410px) {
+    .thanks-head{
+        text-align:center;
+    }
+    .text-right-logo {
+         position: relative !important;
+        right: 26.8rem !important;
+        bottom: 6.5rem !important;
+    }
+    .scales {
+        width: 31.3rem;
+        height: 4.5rem;
+    }
+    .progress {
+        left: 42%;
+        bottom: -1rem;
+    }
+    .chk_class label,input[type="checkbox"]:checked + label{
+        padding:.9rem;
+    }
+    .add-mail-common {
+        flex-direction:column;
+    }
+    .survey-ttl-data {
+        font-size:1.8rem;
+    }
+    .first_survey_heading {
+        font-size: 2.2rem!important;
+    }
+    .scale {
+        height:35px;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+    .top-fill-header{
+        margin-top:13rem!important;
+    }
+    .fixed-ttl{
+        left:.2rem;
+    }
+}
+@media (min-width:410px) and (max-width:430px) {
+    .rank_ord{
+        display:none;
+    }
+    .thanks-head{
+        text-align:center;
+    }
+    .boolean_yes_no{
+        padding:1rem 5.1rem!important;
+    } 
+    .text-right-logo {
+        position: relative !important;;
+        right: 26.8rem !important;;
+        bottom: 8.5rem !important;;
+    }
+    .progress {
+        left: 38%;
+        bottom: -2rem;
+    }
+    .survey-ttl-data {
+        font-size:1.8rem;
+    }
+    .first_survey_heading {
+        font-size:2rem!important;
+    }
+     .scales {
+        width: 35rem;
+     }
+     .survey-txt {
+        font-size: 1.5rem!important;
+    }
+    .chk_class label,input[type="checkbox"]:checked + label{
+        padding:.9rem;
+    }
+    .next-btn-q {
+        display: inline-flex;
+        padding: 12px 9px;
+        width: 145px;
+        
+    }
+    .add-mail-common {
+        flex-direction:column;
+    }
+    label.star {
+        font-size: 5rem!important;
+    }
+    .scale {
+        height:35px;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+    .fixed-ttl{
+       top: 7%;
+       left: 1.2%;
+       font-size:1.4rem!important;
+    }
+    .top-fill-header{
+        margin-top:15rem!important;
+    }
+}
+@media(width:1440px){
+    .progress{
+        right:35%;
+        left:unset;
+    }
+    .logo-dash-temp{
+        padding-top:2rem;
+        margin-left:5rem;
+    }
+    .offer-txt, .offer-text-end{
+        padding-top:2rem;
+    }
+}
+@media (min-width:412px) and (max-width:915px){
+    .input-char{
+        width:15rem;
+    }
+    .wrapper.p-3{
+        padding:0.5rem!important;
+    }
+    .bannar{
+        height:98vh!important;
+        border-radius: 0.5rem!important;
+        margin-top: 4.3px;
+    }
+}
