@@ -1,0 +1,50 @@
+.text-area{
+    height:5rem !important;
+    text-align:left !important;
+}
+.bg-total-leads{
+background-color: #f5c932!important;
+}
+.bg-converted-leads{
+background-color: #fc9262!important;
+}
+.bg-wip{
+background-color: #36cee5!important;
+}
+.bg-ip{
+background-color: #5c3bc8!important;
+}
+.bg-disqualified{
+background-color: #219aa8!important;
+}
+.bg-fresh-leads{
+background-color: #3366CC!important;
+}
+.bg-assign-leads{
+background-color: #cc3333!important;
+}
+.bg-active{
+background-color: #84a744!important;
+}
+.bg-cold{
+background-color: #988ae2!important;
+}
+.bg-warm{
+background-color: #aee158!important;
+}
+.bg-hot{
+background-color: #db9a32!important;
+}
+.bg-prospect{
+background-color: #35277f!important;
+}
+.bg-invalid{
+background-color: #dd4752!important;
+}
+.icon-leadstage{
+    
+}
+.icon-campaign{
+    
+}
+

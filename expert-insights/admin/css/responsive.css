@@ -1,0 +1,26 @@
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .container{
+       max-width: 1660px;
+    }
+    .top-header-user-info {
+        justify-content: end;
+        padding-right: 17%;
+    }
+}
+@media (min-width:1536px) and (max-width: 1680px){
+    .container{
+       max-width: 1416px;
+    }
+    .top-header-user-info {
+        justify-content: end;
+        padding-right: 19%;
+    }
+}
+@media(width:1440px){
+    .support-box-form {
+        padding: 40% 10% 0;
+    }
+    .pt-10{
+        padding-top: 30%;
+    }
+}

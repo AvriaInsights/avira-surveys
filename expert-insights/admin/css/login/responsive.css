@@ -1,0 +1,163 @@
+@media (min-width: 992px) {
+  .wrapper {
+    padding-left: 25rem;
+  }
+  
+  .wrapper.toggled {
+    padding-left: 6rem;
+  }
+
+  .sidebar-wrapper {
+    width:25rem;
+  }
+  
+  .wrapper.toggled .sidebar-wrapper {
+    width: 6rem;
+  }
+  
+  .wrapper.toggled .navbar-wrapper {
+    position: absolute;
+    margin-right: -19rem;
+}
+  
+  .wrapper.toggled .content-wrapper {
+    position: absolute;
+    margin-right: -19rem;
+  }
+
+  .navbar-wrapper {
+    position: relative;
+  }
+
+ .wrapper.toggled {
+    padding-left: 6rem;
+  }
+
+  .content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  .wrapper.toggled .navbar-wrapper,
+  .wrapper.toggled .content-wrapper {
+    position: relative;
+    margin-right: 60px;
+  }
+  .half .contents, .half .bg {
+    width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    padding-left: 6rem;
+  }
+  
+  
+
+  .sidebar-wrapper {
+    width: 6rem;
+  }
+  
+.wrapper.toggled .navbar-wrapper {
+    position: absolute;
+    margin-right: -25rem;
+}
+  
+  .wrapper.toggled .content-wrapper {
+    position: absolute;
+    margin-right: -25rem;
+  }
+
+  .navbar-wrapper {
+    position: relative;
+  }
+
+  .wrapper.toggled {
+    padding-left: 25rem;
+  }
+
+  .content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  .wrapper.toggled .navbar-wrapper,
+  .wrapper.toggled .content-wrapper {
+    position: relative;
+    margin-right: 25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding-left: 0;
+  }
+
+  .sidebar-wrapper {
+    width: 0;
+  }
+
+  .wrapper.toggled .sidebar-wrapper {
+    width: 25rem;
+  }
+  .wrapper.toggled .navbar-wrapper {
+    position: absolute;
+    margin-right: -25rem;
+  }
+
+  .wrapper.toggled .content-wrapper {
+    position: absolute;
+    margin-right: -25rem;
+  }
+
+  .navbar-wrapper {
+    position: relative;
+  }
+
+  .wrapper.toggled {
+    padding-left: 25rem;
+  }
+
+  .content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  .wrapper.toggled .navbar-wrapper,
+  .wrapper.toggled .content-wrapper {
+    position: relative;
+    margin-right: 25rem;
+  }
+}
+/*-----------------27-04-2022----------------*/
+@media (min-width: 375px) and (max-width:677px) {
+      .half .contents, .half .bg {
+    width: 100%;
+}
+.img-heading{
+    bottom: 11.5rem;
+}
+}
+@media (min-width: 280px) and (max-width:740px) {
+      .half .contents, .half .bg {
+    width: 100%;
+}
+.login-heading{
+    font-size: 1.8rem !important;
+}
+.img-heading{
+    bottom: 11.5rem;
+}
+.login-heading {
+    font-size: 2.3rem;
+}
+}
+@media (min-width: 768px) and (max-width:1180px) {
+    .half .contents, .half .bg {
+        width: 100%;
+    }
+    .img-heading{
+        bottom: 11.5rem;
+    }
+}

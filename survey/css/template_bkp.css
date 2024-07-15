@@ -1,0 +1,489 @@
+/*---------template-preview-css 15/2/2022--------------*/
+
+.a{margin-bottom: 10px;
+  color: #63686F;}
+.submit_btn{
+    border-radius:25px !important;
+    font-size:16px !important;
+    margin-left:-15px;}
+.br-25{
+    border-radius: 25px !important;}
+.temp_desc{
+    font-size:12px;border-left:5px solid blue;
+    border-radius:5px;
+    background-color:#e8effa;
+    position:relative}
+.bannar {background: no-repeat center;
+    background-size:cover;
+    width:100%;
+    height:600px;
+    position:relative;padding: 10px;}
+.form__group {position: relative;padding: 15px 0 0;margin-top: 10px;width: 100%;}
+ .form__field {
+	 font-family: inherit;
+	 width: 100%;
+	 border: 0;
+	 border-bottom: 1px solid #bcb9c3;
+	 outline: 0;
+	 font-size: 2.3rem;
+	 color: #ddd;
+	 padding: 2px 0;
+	 background: transparent;
+	 font-family: 'Nunito', sans-serif;
+}
+ .form__field:focus {border-bottom: 2px solid #fff;transition: border 0.3s linear, color 0.3s;}
+ .que_section{padding-top:4.9rem!important;}
+ .que_section h1{font-size:10px;color:#ddd;}
+ .que_section p{font-size:16px;color:#fff;}
+ div.stars {display: inline-block;}
+ input.star { display: none; }
+ label.star {float: right;padding: 11px;font-size: 90px;color: #444;transition: all .2s;}
+ label.star:hover {color: #fff; }
+ input.star:checked ~ label.star:before {content: '\f005';color: #fff;transition: all .25s;}
+ input.star-5:checked ~ label.star:before {color: #fff;text-shadow: 0 0 20px #fff;}
+ input.star-1:checked ~ label.star:before { color: #fff; }
+ label.star:before {content: '\f006';font-family: FontAwesome;}
+ .que_card{background-color:transparent;border:1px solid #fff;border-radius:10px;max-height:100px;height:100px;}
+ .que_card .card-body .card-title{font-size: 10px; color: #d9e8f5;}
+ .sub-question-icon{text-align: center;font-size: 23px;background: transparent;color: #fff;padding:10px;}
+ .que_card:hover{background-color:#3c3e428f;}
+ .cls_que_selection{border-color: rgba(255, 255, 255, 0.5);border-radius: 10px;
+    min-width: 18em;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 16px 16px 0;
+    box-shadow: none;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;display: flex;font-size: 11px;font-weight: 400;color:#fff;
+    }
+    .cls_que_selection:hover{background-color:#3c3e428f;}
+
+/* ===== Radio Button Styles ====== */
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked),
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+	left: -9999px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.checkbox-tools:checked + label,
+.checkbox-tools:not(:checked) + label{
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	width: 170px;
+	height:150px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+	text-transform: uppercase;
+	color:#fff;
+	transition: all 300ms linear; 
+	border:1px solid #fff;
+}
+.checkbox-tools:checked + label:hover{font-size:18px;background-color: #77777766;font-weight:700;}
+.checkbox-tools:not(:checked) + label:hover{font-size:18px;background-color: #d7e2ee59;font-weight:700;}
+
+
+.checkbox-tools:not(:checked) + label{
+	background-color: #77777766;
+}
+.checkbox-tools:checked + label{
+	background-color: #ffffffcc;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	color:#000;font-weight:700;
+}
+.checkbox-budget:hover{background-color: #d7e2ee59 !important;}
+
+.checkbox-budget:checked + label::before,
+.checkbox-budget:not(:checked) + label::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	z-index: -1;
+}
+
+.for-checkbox-tools i{font-size: 45px;padding-bottom: 22px;text-align: center !important;}
+
+
+/* ===== texbox radio button ======  */
+
+	.checkbox-tools1:checked + label:hover{background-color: #fffefdcc;font-weight:700;color:#000;}
+    .checkbox-tools1:not(:checked) + label:hover{background-color: #fffefdcc;font-weight:700;color:#000;cursor:pointer;}
+
+    .checkbox-tools1:not(:checked) + label{
+    border: 1px solid #ddd;
+    padding:9px 17px;
+     border-radius:5px;
+     color:#fff;
+     width:100%;
+    margin-top:20px;
+    font-size:16px;
+    }
+    .checkbox-tools1:checked + label{
+       background-color: #fffefdcc;font-weight:700;color:#000;
+        font-weight: 700;
+        border: 1px solid #ddd;
+        padding: 9px 17px;
+        text-align: left !important;
+        border-radius:5px;
+        width:100%;
+        margin-top:20px;
+    }
+    .span{background: #fff;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    text-align: center;}
+    .checkbox-budget1:hover{background-color: #d7e2ee59 !important;}
+
+.checkbox-budget1:checked + label::before,
+.checkbox-budget1:not(:checked) + label::before{
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    color: #000;
+    font-weight: 700;
+    border: 1px solid #ddd;
+    padding: 5px 14px;
+    text-align: left !important;
+}
+
+
+/* Button Styles */
+
+.button {
+  display: inline-flex;
+  padding:10px 20px;
+  width: 150px;
+  border: 2px solid #FFFF;
+  color: #FFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .9em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius:25px;
+  margin-top:20px;
+}
+.get-started{display: inline-flex;
+  padding:10px 20px;
+  width: 200px;
+  border: 2px solid #FFFF;
+  color: #FFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px !important;
+  letter-spacing: -0.2px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius:25px;
+  text-align:center;
+
+}
+.button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button a {
+  position: relative;
+  transition: all .35s ease-Out;
+  color:#fff;
+  font-size:15px;
+  font-weight:700;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  background: #fff;
+  position: absolute;
+  transition: all .35s ease-Out;
+  bottom: 0;
+  font-weight:700;
+}
+
+.button:hover .slide {left: 0;border:1px solid #fff;}
+.button:hover a {color: #000 !important;font-weight:700;}
+.get-started:hover a {color: #000 !important;font-weight:700;}
+/* checkbox style */
+
+/* hide checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* if checkbox is checked, then do these things */
+input[type="checkbox"]:checked + label {
+        background-color: #fffefdcc;font-weight:700;color:#000;
+        font-weight: 700;
+        border: 1px solid #ddd;
+        padding: 9px 17px;
+        text-align: left !important;
+        border-radius:5px;
+        width:100%;
+        margin-top:20px;
+        font-size:16px;
+}
+
+.chk_class label{
+    border: 1px solid #ddd;
+    padding:9px 17px;
+     border-radius:5px;
+     color:#fff;
+     width:100%;
+    margin-top:20px;
+    font-size:16px;}
+/* styles when hovering over options */
+ .chk_class label:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color:#fffefd87;
+  
+  /* transitions and animations */
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -ms-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+}
+ .btn_slider {
+     background-color: transparent;
+     color: #fff;
+     padding: 6px 12px;
+     font-size: 18px; 
+     margin: 0px 4px;
+     float: right;
+     text-align: right;
+ }
+ .btn_slider_fixed { 
+        position: fixed;
+        bottom: 120px;
+        right: 405px;
+
+ }
+ 
+.m-ttl{
+     font-weight:600;
+ }
+  .btn_slider_dir{width: 46px;
+    height: 46px;
+    border: solid 2px #888589;}
+    .btn_slider {
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px !important;
+    margin: 0px 4px;
+}
+
+.progression
+{
+	width: 300px;
+	text-align: center;
+}
+
+p.progress-text
+{
+	font-weight: bold;
+}
+
+.progress-container
+{
+	display: block;
+	background-color: #f4f1ea;
+	height: 25px;
+}
+
+.progress-bar
+{
+	background-color: #927f64;
+	height: 100%;
+	width: 0%;
+	transition: width 0.5s;
+}
+.end{display: none;}
+.success-content{color:#fff;font-size:40px;}
+.mt-15{margin-top: 10rem!important;}
+.action-btn-disabled {
+    cursor: not-allowed !important;
+}
+.logo-dash-temp{
+    max-width: 135px !important;
+    margin-top: 0px;
+}
+.cmp_logo_text{margin-top:-10px;}
+.cmp_logo_text i{font-size:10px;margin-top: -9px;}
+.que_scroll{height:300px;overflow:auto;overflow-x:hidden;padding-right:10px;}
+.que_scroll::-webkit-scrollbar {
+    width: 5px;background-color:#7b217d;border-radius:10px;
+}
+.que_scroll::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 100px;
+}
+.scale{border-width: 1px;
+    border-style: solid;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 0px;
+   /* border-right-width: 0px;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-weight:600;
+    font-size: 16px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 0px;
+    color: rgb(255, 255, 255);
+}
+     .scale:checked + label{
+       background-color: #fffefdcc;font-weight:700;color:#000;
+        font-weight: 700;
+        border: 1px solid #ddd;
+        text-align: center !important;
+        font-size:17px;
+    }
+    .scale:hover{background-color: rgba(255, 255, 255, 0.2);
+    z-index: 1;}
+.scales{display: flex;}
+
+
+.progress {
+        position: absolute;   
+    height: 197px;
+    width: 202px;
+        background-color: #ebfafe00;;
+        cursor: pointer;
+        left: 44%;
+        margin: -80px 0 0 -80px;
+    }
+    
+    .progress-circle {
+      transform: rotate(-90deg);
+    	margin-top: -20px;
+    }
+    
+    .progress-circle-back {
+    	fill: none; 
+    	stroke: #9586865e;
+    	stroke-width:5px;
+    }
+    
+    .progress-circle-prog {
+    	fill: none; 
+    	stroke: #fff;
+    	stroke-width: 5px;  
+    	stroke-dasharray: 0 999;    
+    	stroke-dashoffset: 0px;
+        transition: stroke-dasharray 0.7s linear 0s;
+    }
+    
+    .progress-text {
+    width: 100%;
+    position: absolute;
+    top: 82px;
+    text-align: center;
+    font-size: 2em;
+    margin-left: -18px;
+    }
+
+/*===mobile View===*/
+@media screen and (max-width: 480px) { .banner{height:auto;}}
+@media only screen and (min-device-width: 480px){
+    .banner{height:auto;}
+}
+
+.progression{
+	width: 300px;
+	text-align: center;
+}
+p.progress-text{
+	font-weight: bold;
+}
+.progress-container{
+	display: block;
+	background-color: #f4f1ea;
+	height: 25px;
+}
+.progress-bar{
+	background-color: #927f64;
+	height: 100%;
+	width: 0%;
+	transition: width 0.5s;
+}
+
+.progress {
+position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #ebfafe00;
+    cursor: pointer;
+    left: 31%;
+    margin: 0px 0 0 0px;
+    }
+    
+    .progress-circle {
+      transform: rotate(-90deg);
+    	margin-top: -20px;
+    }
+    
+    .progress-circle-back {
+    	fill: none; 
+    	stroke: #9586865e;
+    	stroke-width:5px;
+    }
+    
+    .progress-circle-prog {
+    	fill: none; 
+    	stroke: #fff;
+    	stroke-width: 5px;  
+    	stroke-dasharray: 0 999;    
+    	stroke-dashoffset: 0px;
+        transition: stroke-dasharray 0.7s linear 0s;
+    }
+    .progress-text {
+    width: 100%;
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    font-size: 1.4em;
+    margin-left: -9px;
+    }
+    .scale_txt {
+        position: absolute;
+        margin-top:64px;
+        font-weight: 600;
+        color: #fefefe87;
+        text-align: left;
+        font-size: 12px;
+    }
+.stars{
+    margin-top:-2rem!important;
+}

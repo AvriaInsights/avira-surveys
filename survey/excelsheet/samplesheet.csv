@@ -1,0 +1,13 @@
+Question,Question Type,Question Level,Tooltip,Is Required
+Do you want to continue?,Boolean,Header,,
+Rate the text?,Rating,Header,,
+Enter Text?,Text,Header,,
+Select Radio Question,Radio,Header,,
+radio1,,Sub,,
+radio2,,Sub,,
+Select Checkbox Question,Checkbox,Header,,
+check1,,Sub,,
+check2,,Sub,,
+Select Dropdown Question,Dropdown,Header,,
+drop1,,Sub,,
+drop2,,Sub,,

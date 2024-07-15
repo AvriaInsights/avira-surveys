@@ -1,0 +1,126 @@
+@media (min-width: 992px) {
+  .wrapper {
+    padding-left: 25rem;
+  }
+  
+  .wrapper.toggled {
+    padding-left: 6rem;
+  }
+
+  .sidebar-wrapper {
+    width:25rem;
+  }
+  
+  .wrapper.toggled .sidebar-wrapper {
+    width: 6rem;
+  }
+  
+  .wrapper.toggled .navbar-wrapper {
+    position: absolute;
+    margin-right: -19rem;
+}
+  
+  .wrapper.toggled .content-wrapper {
+    position: absolute;
+    margin-right: -19rem;
+  }
+
+  .navbar-wrapper {
+    position: relative;
+  }
+
+ .wrapper.toggled {
+    padding-left: 6rem;
+  }
+
+  .content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  .wrapper.toggled .navbar-wrapper,
+  .wrapper.toggled .content-wrapper {
+    position: relative;
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    padding-left: 6rem;
+  }
+
+  .sidebar-wrapper {
+    width: 6rem;
+  }
+  
+.wrapper.toggled .navbar-wrapper {
+    position: absolute;
+    margin-right: -25rem;
+}
+  
+  .wrapper.toggled .content-wrapper {
+    position: absolute;
+    margin-right: -25rem;
+  }
+
+  .navbar-wrapper {
+    position: relative;
+  }
+
+  .wrapper.toggled {
+    padding-left: 25rem;
+  }
+
+  .content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  .wrapper.toggled .navbar-wrapper,
+  .wrapper.toggled .content-wrapper {
+    position: relative;
+    margin-right: 25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding-left: 0;
+  }
+
+  .sidebar-wrapper {
+    width: 0;
+  }
+
+  .wrapper.toggled .sidebar-wrapper {
+    width: 25rem;
+  }
+  .wrapper.toggled .navbar-wrapper {
+    position: absolute;
+    margin-right: -25rem
+
+  .wrapper.toggled .content-wrapper {
+    position: absolute;
+    margin-right: -25rem;
+  }
+
+  .navbar-wrapper {
+    position: relative;
+  }
+
+  .wrapper.toggled {
+    padding-left: 25rem;
+  }
+
+  .content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  .wrapper.toggled .navbar-wrapper,
+  .wrapper.toggled .content-wrapper {
+    position: relative;
+    margin-right: 25rem;
+  }
+}
